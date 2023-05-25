@@ -1,0 +1,36 @@
+.header {
+  background: #FEFEFE;
+  box-shadow: 0px 4px 24px rgba(105, 105, 105, 0.1);
+  display: flex;
+  &__image {
+    width: 66px;
+    height: 52px;
+  }
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  &__item {
+    margin-right: 28px;
+  }
+
+  &__link {
+    color: #2C2C2C;
+    transition: color 250ms cubic-bezier(0.39, 0.575, 0.565, 1) 25ms;
+    &:hover {
+      color: #BBF330;
+      text-decoration-line: underline;
+    }
+  }
+  &__button {
+    background: #BBF330;
+    border-radius: 30px;
+    border: none;
+    width: 98px;
+    height: 32px;
+    margin-right: 30px;
+  }
+}
